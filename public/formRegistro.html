@@ -1,0 +1,41 @@
+
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <title>Registro</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="favicon.ico" type="image/x-icon" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+</head>
+
+<body>
+
+  <div class="container my-5">
+    <div class="jumbotron">
+
+      <h1 >Registro</h1>
+      <br>
+      <form class="form" action="/signup" method="post" role="form" autocomplete="off">
+        <div class="form-group">
+          <input type="text" id="username" name="username" class="form-control w-50 my-2 mr-2" placeholder="Ingresar  email"required>
+
+          <input type="password" id="password" name="password" class="form-control w-50 my-2 mr-2" autocomplete="off" placeholder="Ingresar contraseña"required>
+          <input class="btn btn-success my-3" type="submit" value="Registrar">
+        </div>
+      </form>
+
+      <hr>
+
+      <div class="text-left">
+        <button class="btn btn-success my-3" onclick="location.href = '/login'">Ir a Login</button>
+      </div>
+
+    </div>
+  </div>
+</body>
+
+</html>
